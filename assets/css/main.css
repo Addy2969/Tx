@@ -997,8 +997,6 @@ body {
   overflow: hidden
 }
 
-
-
 .work--lockup .slider--item-image img {
   width: 100%
 }
@@ -1176,7 +1174,7 @@ body {
   border-bottom-color: transparent
 }
 
-.about--banner::after {
+/*.about--banner::after {
   content: "";
   position: absolute;
   top: 75px;
@@ -1186,18 +1184,19 @@ body {
   width: 10px;
   height: 10px;
   background-color: #0f33ff
-}
+}*/
 
 .about--banner h2 {
   position: relative;
-  margin-top: 35px;
-  font-size: 38px;
+  margin-top: 39px;
+  padding-inline-end: 45%;
+  font-size: 22px;
   font-weight: 900;
   line-height: 1;
   z-index: 1
 }
 
-.about--banner h2::before {
+/*.about--banner h2::before {
   content: "";
   position: absolute;
   top: 60px;
@@ -1216,7 +1215,7 @@ body {
   width: 10px;
   height: 10px;
   background-color: #0f33ff
-}
+}*/
 
 .about--banner a {
   padding: 5px 17px 5px 0;
@@ -1242,7 +1241,7 @@ body {
 
 .about--banner img {
   position: absolute;
-  bottom: -90px;
+  bottom: 150px;
   right: -12px
 }
 
@@ -1316,7 +1315,7 @@ body {
 
   .about--banner h2 {
     margin-top: 10px;
-    font-size: 44px
+    font-size: 25px
   }
 
   .about--banner h2::before {
@@ -1349,7 +1348,7 @@ body {
 
   .about--banner h2 {
     margin-top: 0;
-    font-size: 55px
+    font-size: 20px
   }
 
   .about--banner h2::before {
@@ -1944,17 +1943,17 @@ body {
 
   100% {
     box-shadow:
-      0px 0px 50px #f0860c;
+      0px 0px 50px #0ce1f0;
   }
 }
 
 @keyframes continuous-glow {
   0% {
-    box-shadow: 0 0 5px rgba(255, 157, 9, 0.39), inset 0 0 5px rgba(255, 153, 0, 0.356), 0 2px 0 #000;
+    box-shadow: 0 0 5px rgba(9, 107, 255, 0.39), inset 0 0 5px rgba(255, 153, 0, 0.356), 0 2px 0 #000;
   }
 
   100% {
-    box-shadow: 0 0 20px rgba(255, 153, 0, 0.6), inset 0 0 10px rgba(255, 145, 0, 0.4), 0 2px 0 #000;
+    box-shadow: 0 0 20px rgba(0, 162, 255, 0.6), inset 0 0 10px rgba(255, 145, 0, 0.4), 0 2px 0 #000;
   }
 }
 
@@ -2025,7 +2024,7 @@ input,
   font-size: 28px;
   padding: 0;
   margin-bottom: 1.25em;
-  color: #f0860c;
+  color: #0ca8f0;
 }
 
 label {
@@ -2080,18 +2079,18 @@ textarea {
 }
 
 .btn-glow:hover {
-  box-shadow: 0px 0px 10px #f0860c;
+  box-shadow: 0px 0px 10px #0c9cf0;
 }
 
 .form-btn:hover {
-  background: #f0860c;
+  background: #0c41f0;
 }
 
 .form-container input:focus,
 .form-container select:focus,
 .form-container textarea:focus {
   animation: continuous-glow 800ms ease-out infinite alternate;
-  box-shadow: 0 0 5px #f0860c, inset 0 0 5px #f0860c, 0 2px 0 #000;
+  box-shadow: 0 0 5px #0ac1da, inset 0 0 5px #0788a8, 0 2px 0 #000;
   color: rgb(255, 229, 195);
 }
 

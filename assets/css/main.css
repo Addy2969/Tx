@@ -953,12 +953,6 @@ body {
   position: relative
 }
 
-
-.a-social:hover{
-  visibility: visible;
-  background: white;
-  opacity: .5;
-}
 .work--lockup .slider {
   position: relative;
   display: -webkit-box;
@@ -974,8 +968,7 @@ body {
 .work--lockup .slider--item {
   position: absolute;
   display: none;
-  text-align: center;
-  
+  text-align: center
 }
 
 .work--lockup .slider--item a {
@@ -1003,13 +996,6 @@ body {
   border-radius: 50%;
   overflow: hidden
 }
-
-
-.a-social{
-  visibility: visible;
-}
-
-
 
 .work--lockup .slider--item-image img {
   width: 100%
@@ -1202,7 +1188,7 @@ body {
 
 .about--banner h2 {
   position: relative;
-  margin-top: 39px;
+  margin-top: 10%;
   padding-inline-end: 45%;
   font-size: 22px;
   font-weight: 900;
@@ -1255,7 +1241,7 @@ body {
 
 .about--banner img {
   position: absolute;
-  bottom: 150px;
+  bottom: 160px;
   right: -12px
 }
 
@@ -1328,7 +1314,7 @@ body {
   }
 
   .about--banner h2 {
-    margin-top: 10px;
+    margin-top: 25px;
     font-size: 25px
   }
 

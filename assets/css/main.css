@@ -953,10 +953,12 @@ body {
   position: relative
 }
 
-.work--lockup:hover .social {
-  visibility: visible;
-}
 
+.work--lockup:hover .a-social{
+  visibility: visible;
+  background: white;
+  opacity: .5;
+}
 .work--lockup .slider {
   position: relative;
   display: -webkit-box;
@@ -972,7 +974,8 @@ body {
 .work--lockup .slider--item {
   position: absolute;
   display: none;
-  text-align: center
+  text-align: center;
+  
 }
 
 .work--lockup .slider--item a {
@@ -1002,16 +1005,8 @@ body {
 }
 
 
-.social{
-  position: absolute;
-  top: 0;
-  left:0;
-  background: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  visibility: hidden;
+.a-social{
+  visibility: visible;
 }
 
 

@@ -953,6 +953,10 @@ body {
   position: relative
 }
 
+.work--lockup:hover .social {
+  visibility: visible;
+}
+
 .work--lockup .slider {
   position: relative;
   display: -webkit-box;
@@ -995,6 +999,19 @@ body {
   margin: 0 auto;
   border-radius: 50%;
   overflow: hidden
+}
+
+
+.social{
+  position: absolute;
+  top: 0;
+  left:0;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  visibility: hidden;
 }
 
 
